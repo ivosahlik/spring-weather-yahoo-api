@@ -1,0 +1,129 @@
+{
+  "count": 10,
+  "created": "2018-05-12T19:24:19Z",
+  "lang": "en-US",
+  "results": {
+    "channel": [
+      {
+        "item": {
+          "forecast": {
+            "code": "39",
+            "date": "12 May 2018",
+            "day": "Sat",
+            "high": "26",
+            "low": "10",
+            "text": "Scattered Showers"
+          }
+        }
+      },
+      {
+        "item": {
+          "forecast": {
+            "code": "30",
+            "date": "13 May 2018",
+            "day": "Sun",
+            "high": "26",
+            "low": "13",
+            "text": "Partly Cloudy"
+          }
+        }
+      },
+      {
+        "item": {
+          "forecast": {
+            "code": "30",
+            "date": "14 May 2018",
+            "day": "Mon",
+            "high": "22",
+            "low": "12",
+            "text": "Partly Cloudy"
+          }
+        }
+      },
+      {
+        "item": {
+          "forecast": {
+            "code": "39",
+            "date": "15 May 2018",
+            "day": "Tue",
+            "high": "18",
+            "low": "10",
+            "text": "Scattered Showers"
+          }
+        }
+      },
+      {
+        "item": {
+          "forecast": {
+            "code": "39",
+            "date": "16 May 2018",
+            "day": "Wed",
+            "high": "18",
+            "low": "10",
+            "text": "Scattered Showers"
+          }
+        }
+      },
+      {
+        "item": {
+          "forecast": {
+            "code": "39",
+            "date": "17 May 2018",
+            "day": "Thu",
+            "high": "17",
+            "low": "11",
+            "text": "Scattered Showers"
+          }
+        }
+      },
+      {
+        "item": {
+          "forecast": {
+            "code": "28",
+            "date": "18 May 2018",
+            "day": "Fri",
+            "high": "19",
+            "low": "10",
+            "text": "Mostly Cloudy"
+          }
+        }
+      },
+      {
+        "item": {
+          "forecast": {
+            "code": "28",
+            "date": "19 May 2018",
+            "day": "Sat",
+            "high": "20",
+            "low": "10",
+            "text": "Mostly Cloudy"
+          }
+        }
+      },
+      {
+        "item": {
+          "forecast": {
+            "code": "30",
+            "date": "20 May 2018",
+            "day": "Sun",
+            "high": "22",
+            "low": "10",
+            "text": "Partly Cloudy"
+          }
+        }
+      },
+      {
+        "item": {
+          "forecast": {
+            "code": "30",
+            "date": "21 May 2018",
+            "day": "Mon",
+            "high": "23",
+            "low": "12",
+            "text": "Partly Cloudy"
+          }
+        }
+      }
+    ]
+  }
+}

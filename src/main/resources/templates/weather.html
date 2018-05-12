@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+          integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="/static/css/weather-icons.min.css" th:href="@{/css/weather-icons.min.css}"/>
+
+
+    <style>
+        .yellow-collor {
+            background-color: yellow;
+        }
+        .icon-size {
+            font-size: 50px;
+            text-align: center;
+        }
+    </style>
+
+</head>
+<body>
+
+<div class="container">
+
+    <h1 th:text="@{forecast of weather}"></h1>
+
+    <div class="card" style="width: 18rem;">
+
+        <div class="card-body yellow-collor">
+            <div class="weathericons yellow-collor icon-size">
+                <span class="wi" th:text="${weather.weatherConditionCodes.weatherFontCode}"></span>
+            </div>
+        </div>
+
+        <div class="card-body">
+            <h5 class="card-title" th:text="${weather.city}"></h5>
+            <p class="card-text" th:text="${weather.text}"></p>
+        </div>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item"><span th:text="${weather.localDateTimeString}"></span></li>
+            <li class="list-group-item">High: <span th:text="${weather.high}"></span></li>
+            <li class="list-group-item">Low: <span th:text="${weather.low}"></span></li>
+        </ul>
+    </div>
+
+    <br><br><br><br><br><br><br><br><br><br><br>
+
+    <div class="alert alert-dark">
+        <h5>© Ivo Vošahlík | this project on GitHub <a th:href="#{github.link}"><span th:text="#{github.link.name}"></span></a> </h5>
+        <h8>Forecast of weather is a Java app focused on Java SE, Spring Framework and Hibernate, REST.</h8>
+    </div>
+</div>
+
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+        integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+        crossorigin="anonymous"></script>
+
+
+</body>
+</html>
