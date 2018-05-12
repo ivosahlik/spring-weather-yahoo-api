@@ -6,7 +6,7 @@ package cz.ivosahlik.weatheryahooapi.enumeration;
  */
 public enum WeatherForecastEnum {
 
-    PRAGUE("Prague");
+    PRAGUE("Zdice");
 
 
     private String cityName;
