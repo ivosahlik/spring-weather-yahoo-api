@@ -8,9 +8,9 @@ import org.springframework.context.annotation.PropertySource;
 import org.springframework.scheduling.annotation.EnableScheduling;
 import org.springframework.web.client.RestTemplate;
 
+@EnableCaching(proxyTargetClass = true)
 @EnableScheduling
-@EnableCaching
-@PropertySource(value = "/config/weather-config.properties")
+@PropertySource(value = {"classpath:/config/weather-config.properties"}, ignoreResourceNotFound = true)
 @SpringBootApplication
 public class WeatherYahooApiApplication {
 

@@ -13,7 +13,6 @@ import java.io.IOException;
 import static org.junit.Assert.assertArrayEquals;
 import static org.junit.Assert.assertEquals;
 
-
 public class WeatherYahooApiApplicationTests {
 
 	private static final String JSON_QUERY = "src/main/resources/query_1.json";
@@ -28,7 +27,6 @@ public class WeatherYahooApiApplicationTests {
 		int countExpected = 10;
 
 		assertEquals(countExpected, countResult);
-
 	}
 
 }
