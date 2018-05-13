@@ -7,3 +7,10 @@ https://github.com/erikflowers/weather-icons
 
 # mapper json 
 https://www.mkyong.com/java/jackson-tree-model-example/
+
+
+## url
+http://localhost:8080/weather
+
+## rest api 
+http://localhost:8080/api/weather

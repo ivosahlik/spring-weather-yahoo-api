@@ -43,5 +43,4 @@ public class IndexController {
         return PARAM_WEATHER;
     }
 
-
 }

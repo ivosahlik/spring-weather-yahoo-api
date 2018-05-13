@@ -37,7 +37,7 @@ public class CurrentForecastDto {
     @JsonProperty(value = "text")
     private String text;
 
-    @JsonIgnore
+//    @JsonIgnore
     private String city;
 
     @JsonIgnore
