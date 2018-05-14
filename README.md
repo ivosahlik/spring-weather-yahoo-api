@@ -1,3 +1,13 @@
+# run app
+## build
+mvn clean package
+
+## run
+mvn spring-boot:run
+or 
+java -jar target/weather-api.jar
+
+
 # convert fahrenheit-to-celsius
 https://www.rapidtables.com/convert/temperature/how-fahrenheit-to-celsius.html
 
